@@ -57,6 +57,8 @@ class WateringScheduler {
     }
 }
 
+
+//тест
 class HumiditySensor {
     private final Random random = new Random();
 
