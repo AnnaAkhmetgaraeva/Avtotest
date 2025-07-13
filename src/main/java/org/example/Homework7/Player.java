@@ -7,8 +7,14 @@ import java.util.Objects;
 public class Player {
     @JsonProperty
     private int id;
+
+    @JsonProperty
     private String nick;
+
+    @JsonProperty
     private int points;
+
+    @JsonProperty("online")
     private boolean isOnline;
 
     public Player(int id, String nick, int points, boolean isOnline) {
